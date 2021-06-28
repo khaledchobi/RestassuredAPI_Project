@@ -5,7 +5,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 public class RestUtils {
 
     public static String empName(){
-        String generatedString = RandomStringUtils.randomAlphabetic(1);
+        String generatedString = RandomStringUtils.randomAlphabetic(1).toLowerCase();
         return ("John" + generatedString);
     }
 
